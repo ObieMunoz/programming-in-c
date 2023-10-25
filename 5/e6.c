@@ -10,7 +10,7 @@
 
 int main (void)
 {
-    int number, temp, firstDigit, length = 1;
+    int number, temp, length = 1;
 
     printf ("Please enter a number.\n");
     scanf ("%i", &number);
@@ -40,7 +40,7 @@ int main (void)
         }
 
         // Set the first digit
-        firstDigit = temp;
+        int firstDigit = temp;
 
         // Print the correct word based on the first digit 
         switch (firstDigit)
@@ -79,15 +79,16 @@ int main (void)
                 break;
         }
 
+        int placeValue = firstDigit;
         // We need to remove the first digit from the original number, so
         // we calculate its placement based on the length 
         for (int i = 0; i < length - 1; ++i)
         {
-            firstDigit *= 10;
+            placeValue *= 10;
         }
 
         // remove the first digit from the original number
-        number -= firstDigit;
+        number -= placeValue;
 
         printf (" ");
 
