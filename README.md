@@ -6,10 +6,10 @@ This is the complete set of answers to the exercises in the book.
 ### Contents
 
 - Chapter 1. Some Fundamentals - no exercises
-- [Chapter 2. Compiling and Running Your First Program](2)
-- [Chapter 3. Variables, Data Types, and Arithmetic Expressions](3)
-- [Chapter 4. Program looping](4)
-- [Chapter 5. Making Decisions](5)
+- [Chapter 2. Compiling and Running Your First Program](chapter2)
+- [Chapter 3. Variables, Data Types, and Arithmetic Expressions](chapter3)
+- [Chapter 4. Program looping](chapter4)
+- [Chapter 5. Making Decisions](chapter5)
 - Chapter 6. Working with Arrays
 - Chapter 7. Working with Functions
 - Chapter 8. Working with Structures
