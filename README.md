@@ -21,3 +21,8 @@ Answers to Programming in C (Fourth Edition) by Stephan G. Kochan.
 - Chapter 16. Miscellaneous and Advanced Features
 - Chapter 17. Debugging Programs
 - Chapter 18. Object-Oriented Programming (no exercises)
+
+### Extra
+The [Extra](extra) folder contains small programs that are *NOT* part of the book.
+This is a collection of programs that I wrote for additional practice with C while
+I was learning and working through this book.
