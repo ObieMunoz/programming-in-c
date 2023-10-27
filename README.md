@@ -1,7 +1,5 @@
-# Programming-in-C-Fourth-Edition
+# Programming  in C (4th Edition)
 Answers to Programming in C (Fourth Edition) by Stephan G. Kochan.
-
-This is the complete set of answers to the exercises in the book.
 
 ### Contents
 
