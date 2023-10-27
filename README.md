@@ -10,8 +10,8 @@ This is the complete set of answers to the exercises in the book.
 - [Chapter 3. Variables, Data Types, and Arithmetic Expressions](chapter3)
 - [Chapter 4. Program looping](chapter4)
 - [Chapter 5. Making Decisions](chapter5)
-- Chapter 6. Working with Arrays
-- Chapter 7. Working with Functions
+- [Chapter 6. Working with Arrays](chapter6)
+- [Chapter 7. Working with Functions](chapter7)
 - Chapter 8. Working with Structures
 - Chapter 9. Character Strings
 - Chapter 10. Pointers
