@@ -29,7 +29,7 @@ struct time compareTimes (struct time time1, struct time time2)
     difference = seconds2 - seconds1;
     if (seconds2 < seconds1)
         difference += 86400; // if we crossed midnight, we need to add a full
-                             // of seconds into the calculation!
+                             // day of seconds into the calculation!
 
     // Now we need to convert the seconds back into the hh:mm:ss format
     returnTime.seconds = difference % 60;
