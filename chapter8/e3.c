@@ -22,7 +22,7 @@ struct time compareTimes (struct time time1, struct time time2)
     struct time returnTime;
     int seconds1, seconds2, difference;
 
-    // We need to conver the times to seconds
+    // We need to convert the times to seconds
     seconds1 = time1.hour * 60 * 60 + time1.minutes * 60 + time1.seconds;
     seconds2 = time2.hour * 60 * 60 + time2.minutes * 60 + time2.seconds;
 
