@@ -67,7 +67,7 @@ struct date {
 int f (int year, int month)
 {
     if (month <= 2 )
-        return year - 1;
+        return --year;
     else 
         return year;
 }
@@ -75,28 +75,39 @@ int f (int year, int month)
 int g (int month)
 {
     if ( month <= 2 )
-        return month + 13;
+        return (month + 13);
     else 
-        return month + 1;
+        return ++month;
+}
+
+int absolute (int a)
+{
+	if (a < 0)
+		a = -a;
+	
+	return a;
 }
 
 int calculateN(struct date date)
 {
     int fVal = f(date.year, date.month);
     int gVal = g(date.month);
-
     return (1461 * fVal) / 4 + (153 * gVal) / 5 + date.day;
 }
 
 int main (void)
 {
-    struct date date1 = { 2004, 8, 8 };
-    struct date date2 = { 2005, 2, 22 };
+    struct date date1;
+    struct date date2;
 
-    printf ("%i\n", calculateN(date2));
-    printf ("%i\n", calculateN(date1));
-
-    printf ("%i\n", calculateN(date2) - calculateN(date1));
+	printf ("Please enter the first date (yyyy mm dd): ");
+	scanf ("%i%i%i", &date1.year, &date1.month, &date1.day);
+	
+	printf ("Please enter the second date (yyyy mm dd): ");
+	scanf ("%i%i%i", &date2.year, &date2.month, &date2.day);
+ 
+    printf ("There are %i days between the %.2i/%.2i/%.2i and %.2i/%.2i/%.2i.\n", absolute(calculateN(date1) - calculateN(date2)),
+		date1.year, date1.month, date1.day, date2.year, date2.month, date2.day);
 
     return 0;
 }
