@@ -11,7 +11,7 @@ Answers to Programming in C (Fourth Edition) by Stephan G. Kochan.
 - [Chapter 6. Working with Arrays](chapter6)
 - [Chapter 7. Working with Functions](chapter7)
 - [Chapter 8. Working with Structures](chapter8)
-- Chapter 9. Character Strings
+- [Chapter 9. Character Strings](chapter9)
 - Chapter 10. Pointers
 - Chapter 11. Operations on Bits
 - Chapter 12. The Preprocessor
